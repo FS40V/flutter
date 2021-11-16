@@ -9,13 +9,11 @@ class Info extends StatelessWidget {
     return Scaffold(
       body: Stack(children: [
         Container(
-            height: double.infinity,
-            width: double.infinity,
+            height: 200,
+            width: 200,
             decoration: BoxDecoration(
                 gradient: LinearGradient(
-              colors: [Color(0xffFCE8E3), Color(0xffFDF7F5)],
-              begin: Alignment.topCenter,
-            ))),
+                    colors: [Color(0xffFF9A82), Color(0xffFFBE9A)]))),
         Container(
           decoration: BoxDecoration(
             image: DecorationImage(
